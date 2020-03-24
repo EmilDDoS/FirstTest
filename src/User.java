@@ -8,7 +8,7 @@ public class User {
         this.developer = developer;
     }
 
-    String getVacancy() {
+    public String getVacancy() {
         return vacancy.getVacancy(developer);
     }
 
